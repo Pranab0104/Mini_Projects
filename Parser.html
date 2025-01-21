@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Parser</title>
+    <link rel="stylesheet" href="Parser.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Resume Parser</h1>
+        <form id="upload-form" enctype="multipart/form-data">
+            <input type="file" id="resume" name="resume" accept=".docx">
+            <!-- <label for="resume" class="file-upload-btn">Choose a resume</label> -->
+            <div id="file-name"></div>
+            <a href="ResumePraser.html"> <BR></BR>            
+            <button type="button" id="parse-btn">Parse Resume
+                </button>
+            </a>
+
+        </form>
+        <div id="parsed-data"></div>
+    </div>
+    <script src="Parser.js"></script>
+</body>
+</html>
