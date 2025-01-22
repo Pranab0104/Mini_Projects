@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('');
+    background-repeat: no-repeat;
+    align-items: center;
+
+}
+
+.progress {
+    background-color: rgb(255, 8, 8);
+    height: 3px;
+    animation: load 2s ease-in-out alternate;
+}
+
+@keyframes load {
+    0% {
+        width: 0vw;
+    }
+
+    75% {
+        width: 60vw;
+    }
+
+    100% {
+        width: 100vw;
+    }
+}
+
+.bi {
+    margin: 15px 1015px;
+    padding: 5px 25px;
+    position: absolute;
+    align-items: center;
+    display: flex;
+}
+
+.bi:hover {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+header {
+    background-color: #37475a;
+    position: sticky;
+    font-family: 'Baloo Bhai 2', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.list {
+    margin: 15px 1015px;
+    padding: 5px 25px;
+    position: absolute;
+    align-items: center;
+    display: flex;
+}
+
+.list:hover {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+
+marquee{
+    background-color: #ddd;
+}
+nav ul {
+    display: flex;
+    justify-content: start;
+    height: 55px;
+    align-items: center;
+}
+
+nav ul :hover {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 16px;
+
+}
+
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+.section img{
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 600px;
+    border-radius: 10px ;
+}
+
+.card {
+    max-width: 95vw;
+    /* background-color: crimson; */
+    margin: auto;
+    /* overflow: scroll; */
+    padding: 14px;
+}
+
+
+.card a:hover {
+    color: crimson;
+    background-color: black;
+    box-shadow: rgb(255, 0, 0) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* .card a {
+    text-decoration: none;
+    margin: 0px 1012px;
+    height: 5vh;
+    width: 4vw;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    background-color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+} */
+
+
+.Me-2 {
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 96vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h2 {
+    /* font-family: 'Baloo Bhai 2', cursive; */
+    color: rgb(0, 0, 0);
+}
+
+.card-items img {
+    height: 250px;
+    width: 250px;
+    border-radius: 2px;
+
+}
+
+.card-items img:hover {
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    height: 300px;
+    width: 300px;
+    border-radius: 2px;
+}
+
+.card-items {
+    margin-bottom: 25px;
+    /* padding-bottom: 10px; */
+    padding: 110px;
+    background-color: #ddd;
+    justify-content: center;
+    display: inline-block;
+    flex-direction:column;
+    /* border: 2px solid rgb(198, 198, 198); */
+}
+
+.card-items:hover {
+    border-radius: 10px ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.lines {
+    width: 250px;
+    font-family: 'Baloo Bhai 2';
+    font-size: x-small;
+    justify-content: center;
+    font: bold ;
+    
+}
+
+/* Footer */
+footer{
+    width: 100vw;
+    position: sticky;
+}
+
+.footer-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #37475a;
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 600;
+    height: 60px;
+    text-decoration: none;
+  }
+  
+  .footer-items {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0 auto;
+    background: #232f3e;
+  }
+  
+  .footer-items h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    margin: 20px 0 10px 0;
+  }
+  
+  .footer-items ol {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  
+  .footer-items li a {
+    color: #ddd;
+    font-size: 0.875rem;
+    text-decoration: none;
+  }
+  
+  .footer-items li a:hover {
+    text-decoration: none;
+  }
