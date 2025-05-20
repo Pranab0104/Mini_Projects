@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Admin Panel - Loan Portal</title>
+  <link rel="stylesheet" href="admin.css" />
+</head>
+<body>
+  <video autoplay muted loop class="video-background">
+    <source src="background.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  <header>
+    <h1 class="logo">Admin Panel</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="apply.html">Apply</a>
+      <a href="calculator.html">Calculator</a>
+      <a href="status.html">Status</a>
+      <a href="#">Admin</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <h2>Loan Applications</h2>
+      <table id="applications-table">
+        <thead>
+          <tr>
+            <th>Application ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Amount (₹)</th>
+            <th>Purpose</th>
+            <th>Duration (months)</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Data will be inserted here dynamically -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Loan Portal Inc. | support@loanportal.com</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>
