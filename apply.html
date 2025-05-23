@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>apply now</title>
+    <style>
+        .apply-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  background-color: #0073e6;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.apply-btn:hover {
+  background-color: #005ec2;
+  transform: scale(1.05);
+}
+
+    </style>
+</head>
+<body>
+    <section class="section" id="get-started">
+  <h2>Get Started Now</h2>
+  <p>Click apply to begin your loan process today!</p>
+  <a class="btn apply-btn" href="apply1.html">Apply Now</a>
+</section>
+
+<script>
+    // Animate Apply Now button more strongly
+gsap.from(".apply-btn", {
+  opacity: 0,
+  scale: 0.5,
+  duration: 1,
+  delay: 1.2,
+  ease: "elastic.out(1, 0.5)",
+  scrollTrigger: {
+    trigger: ".apply-btn",
+    start: "top 90%"
+  }
+});
+
+</script>
+</body>
+</html>
