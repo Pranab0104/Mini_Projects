@@ -1,0 +1,44 @@
+.status-form {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 2rem auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.status-form label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.status-form input {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.status-form .btn {
+  margin-top: 1.5rem;
+  background-color: #0073e6;
+  color: white;
+  padding: 0.8rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.status-form .btn:hover {
+  background-color: #005ec2;
+}
+
+.status-result {
+  margin-top: 1.5rem;
+  font-weight: bold;
+  color: #004080;
+  font-size: 1.2rem;
+}
